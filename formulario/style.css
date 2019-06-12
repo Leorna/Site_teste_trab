@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+.header-one {
+    font-size: 125px;
+    color: purple;
+    text-decoration: underline overline;
+}
+
+.style-p {
+    color: purple;
+    font-size: 150%;
+}
+
+.style-input {
+    border-radius: 15px;
+    font-size: 150%;
+    color: purple;
+}
+
+.style-text-area {
+    width: 500px;
+    height: 419px;
+    background-image: url("cat.gif");
+    font-size: 200%;
+    border-radius: 15px;
+    border-color: purple;
+    color: purple;
+}
+
+.style-button {
+    font-size: 170%;
+    border-radius: 15px;
+    color: purple;
+    background-color: lightcoral;
+}

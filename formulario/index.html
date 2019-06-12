@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desabafe</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="header-one">Desabafe Comigo</h1>
+        <form action="save_msg.php" method="post">
+            <p class="style-p">Assunto:</p>
+            <input class="style-input" type="text" name="subject">
+            <br/>
+            <p class="style-p">Mensagem: </p>
+            <textarea id="text-area" class="style-text-area" name="msg"></textarea>
+            <br/>
+            <button type="submit" class="style-button">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
